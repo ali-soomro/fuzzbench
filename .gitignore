@@ -44,3 +44,14 @@ docker/generated.mk
 
 # Vim backup files.
 .*.swp
+
+# GitHub Codespaces
+.devcontainer/
+.github/
+bin/
+lib/
+lib64/
+lib64
+
+# Venv
+pyvenv.cfg
