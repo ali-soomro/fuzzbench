@@ -45,6 +45,9 @@ docker/generated.mk
 # Vim backup files.
 .*.swp
 
+# Experiment Stuff
+experiment_log.log
+
 # GitHub Codespaces
 .devcontainer/
 .github/
