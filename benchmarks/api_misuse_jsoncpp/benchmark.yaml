@@ -1,0 +1,12 @@
+fuzz_target: jsoncpp_fuzzer
+project: api_misuse_jsoncpp
+unsupported_fuzzers:
+  - klee
+  - aflplusplus_cmplog_double
+  - symcc_aflplusplus_single
+  - eclipser_aflplusplus
+  - aflplusplus_qemu_double
+  - fuzzolic_aflplusplus_z3
+  - symqemu_aflplusplus
+  - fuzzolic_aflplusplus_fuzzy
+  - fuzzolic_aflplusplus_z3dict
