@@ -49,7 +49,6 @@ docker/generated.mk
 experiment_log.log
 
 # GitHub Codespaces
-.devcontainer/
 .github/
 bin/
 lib/
